@@ -1,5 +1,5 @@
 import "../Assets/style/body.css";
-
+import { ChatIcon } from "../component/ChatIcon";
 // body Images
 import fourpic from "../Assets/images/four-pic.png";
 // import mbtoken from "../Assets/images/mbtoken.png";
@@ -24,17 +24,23 @@ const Body = () => {
         <div className="col-lg-6 md-6 sm-6 homex">
           <div className="home-heading">
             <h1 className="home-heading-h1">
-              Rent a <span className="heading-text">Place</span> away from <span className="heading-text">Home</span> in
-              the <span className="heading-text">Metaverse</span>
+              Rent a <span className="heading-text">Place</span> away from{" "}
+              <span className="heading-text">Home</span> in the{" "}
+              <span className="heading-text">Metaverse</span>
             </h1>
             <p className="home-heading-p">
-              we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your
-              imagination to reality at your comfort zone.
+              we provide you access to luxury and affordable houses in the
+              metaverse, get a chance to turn your imagination to reality at
+              your comfort zone.
             </p>
           </div>
 
           <div className="search-bar">
-            <input className="input-search" type="text" placeholder="Search for location" />
+            <input
+              className="input-search"
+              type="text"
+              placeholder="Search for location"
+            />
             <a href="/" className="search-bar-a">
               {" "}
               Search{" "}
@@ -54,9 +60,26 @@ const Body = () => {
 
         <img className="img-fluid" src={openbnb} alt="opensea" />
       </div>
-
+      <div className="iconsimage">
+        <div className="icons">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M20 2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h3v3.767L13.277 18H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14h-7.277L9 18.233V16H4V4h16v12z"
+            />
+            <path fill="currentColor" d="M7 7h10v2H7zm0 4h7v2H7z" />
+          </svg>
+        </div>
+      </div>
       <div className="">
-        <h1 className="text-center mb-5">Inspiration for your next Adventure</h1>
+        <h1 className="text-center mb-5">
+          Inspiration for your next Adventure
+        </h1>
 
         <div className="container-fluid conxx">
           <img className="mb" src={frame1} alt="frame1" />
@@ -83,8 +106,9 @@ const Body = () => {
         <div className="metax">
           <h1>Metabnb NFTs</h1>
           <p>
-            Discover our NFT gift collection. Loyal customers gets amazing gift cards which are traded as NFTs. These
-            NFTs gives our customer access to loads of our exclusive services.
+            Discover our NFT gift collection. Loyal customers gets amazing gift
+            cards which are traded as NFTs. These NFTs gives our customer access
+            to loads of our exclusive services.
           </p>
           <button className="home-end-button">Learn more</button>
         </div>
