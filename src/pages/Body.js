@@ -1,5 +1,6 @@
 import "../Assets/style/body.css";
-import { ChatIcon } from "../component/ChatIcon";
+import { Link } from "react-router-dom";
+
 // body Images
 import fourpic from "../Assets/images/four-pic.png";
 // import mbtoken from "../Assets/images/mbtoken.png";
@@ -61,20 +62,22 @@ const Body = () => {
         <img className="img-fluid" src={openbnb} alt="opensea" />
       </div>
       <div className="iconsimage">
-        <div className="icons">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-          >
-            <path
-              fill="currentColor"
-              d="M20 2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h3v3.767L13.277 18H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14h-7.277L9 18.233V16H4V4h16v12z"
-            />
-            <path fill="currentColor" d="M7 7h10v2H7zm0 4h7v2H7z" />
-          </svg>
-        </div>
+        <Link to="/chat">
+          <div className="icons">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M20 2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h3v3.767L13.277 18H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14h-7.277L9 18.233V16H4V4h16v12z"
+              />
+              <path fill="currentColor" d="M7 7h10v2H7zm0 4h7v2H7z" />
+            </svg>
+          </div>
+        </Link>
       </div>
       <div className="">
         <h1 className="text-center mb-5">
