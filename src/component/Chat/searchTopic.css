@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar {
+  display: inline-flex;
+  border: 2px solid #f1f1f1;
+  margin: 1rem;
+  padding: 0.1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.searchfield {
+  border: none;
+  outline: none;
+}
+.searchsvg {
+  color: lightgray;
+}
+.topics {
+  padding: 0.3rem;
+  margin: 0.1rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.topiclist {
+  list-style-type: none;
+  display: inline-flex;
+  
+}
